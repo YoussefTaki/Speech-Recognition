@@ -28,25 +28,19 @@ CNN-LSTM model consists of 3 main steps: <br />
 
 
 ### Setup: 
-The code was written using python 3.6. 
+The code was written using Python 3.9. 
 The following libraries are the minimal to run the code: 
 ```python
-import pytorch
-import networkx
+import Tensorflow
+import Pandas
 import numpy
 import tqdm
 ```
-or you can have everything set up by running: 
-```bash
-pip install -r requirements.txt
+To train our model for the Ravdes dataset  with the best configuration as in the paper, simply run:
+```main
+./main.py  
 ```
-### Using the code:
-To use the pretrained models at `checkpoint/` and evaluate the models performance run:
-```bash
-test.py
-```
-
-To train a model for each data set with the best configuration as in the paper, simply run:
-```bash
-./train.sh  
+To see  our step-by-step implementation see:
+```CNN-LSTM
+./CNN-LSTM.ipynb  
 ```
