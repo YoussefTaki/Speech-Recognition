@@ -5,7 +5,7 @@
 
 ### CNN_LSTM
 <div align='center'>
-<img src="Images/CNN-LSTM.png",width="500" height="500"></img>
+<img src="Images/CNN-LSTM.png",width="400" height="450"></img>
 </div>
 <br />
 We developed a new model called CNN-LSTM. This model combines convolutional memory and long-term memory (LSTM) layers to capture various temporal
