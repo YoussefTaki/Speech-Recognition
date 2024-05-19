@@ -5,7 +5,7 @@
 
 ### CNN_LSTM
 <div align='center'>
-<img src="Images/CNN_LSTM.jpg"></img>
+<img src="Images/CNN-LSTM.png"></img>
 </div>
 <br />
 We developed a new model called CNN-LSTM. This model combines convolutional memory and long-term memory (LSTM) layers to capture various temporal
@@ -20,7 +20,7 @@ architecture,  Our results show an improvement over the state of the art by 9% o
 CNN-LSTM model consists of 3 main steps: <br />
 1- The robust and efficient feature extraction phase of our model and the best selection of features used. <br />
 <div align='center'>
-<img src="Images/Extracted"></img>
+<img src="Images/Extracted.png"></img>
 </div>
 <br />
 2- Data augmentation techniques to address limitations of the Ravdess dataset.<br />
