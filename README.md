@@ -3,15 +3,15 @@
 # Enhancing Speech Emotion Recognition with Multi-Feature Fusion via Convolutional Neural Networks
 ### Hmad ZENNOU, Youssef Taki, Mohamed OUHDA, and Mohamed BASLAM
 
-### STM-GCN
+### CNN_LSTM
 <div align='center'>
-<img src="images/STM-GCN.jpg"></img>
+<img src="Images/CNN_LSTM.jpg"></img>
 </div>
 <br />
 We developed a new model called CNN-LSTM. This model combines convolutional memory and long-term memory (LSTM) layers to capture various temporal
 and spatial features, thus enhancing the overall performance of SER systems.
 By leveraging continuous and spectral features combined with a CNN-LSTM
-architecture,  Our results show an improvement over the state of art by 9% on accuracy metric.
+architecture,  Our results show an improvement over the state of the art by 9% on the accuracy metric.
 
 
 
@@ -19,6 +19,10 @@ architecture,  Our results show an improvement over the state of art by 9% on ac
 <br />
 CNN-LSTM model consists of 3 main steps: <br />
 1- The robust and efficient feature extraction phase of our model and the best selection of features used. <br />
+<div align='center'>
+<img src="Images/Extracted"></img>
+</div>
+<br />
 2- Data augmentation techniques to address limitations of the Ravdess dataset.<br />
 3- Combine CNN and LSTM layers to capture different periods and spatial features, to enhance the overall performance of SER systems. <br />
 
